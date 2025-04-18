@@ -1,5 +1,5 @@
 # Draughts Game
-Coding Languages: HTML / CSS / JS | Category: Game | Difficulty 2
+Coding Languages: HTML / CSS / JS (& P5) | Category: Game | Difficulty: 2
 
 A classic game reimagined for the browser
 
