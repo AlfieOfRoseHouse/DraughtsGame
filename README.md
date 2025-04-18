@@ -21,7 +21,7 @@ It runs entirely in the browser — no servers, no dependencies, just old-school
 **-- How to play --**
 
 1. Open the game:
-   [Play Draughts](./index.html)
+   [Play Draughts!](https://alfieofrosehouse.github.io/DraughtsGame/)
 2. Click on a piece to select it
 3. Click a square, it can move to one diagonal in front or over 1 counter diagonally in front
 4. Capture a counter by jumping over it
