@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.js"></script>
+  <script src="script.js"></script>
+  <title>Draughts</title>
+  <style>
+    * {
+      margin: 5px, 5px, 5px, 0;
+
+      font-family: 'Courier New', Courier, monospace;
+      text-align: center;
+      font-size: large;
+      color: rgb(40, 40, 40);
+    }
+
+    #toolbar {
+      display: flex;
+
+      column-gap: 5px;
+      grid-auto-columns: auto;
+      grid-column: 20px, 20px;
+
+      height: 50px;
+    }
+
+    .tool {
+      position: relative;
+      width: 100%;
+      background-color: burlywood;
+      border-width: 1px;
+      border-radius: 10px;
+      height: 30px;
+    }
+
+    .tool:hover {
+      background-color: brown;
+      height: 50px;
+      font-size: larger;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='toolbar'>
+    <button class='tool' onclick="initGame()">New Game</button>
+  </div>
+  <div id='Canvas'></div>
+</body>
+
+</html>
